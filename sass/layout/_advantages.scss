@@ -17,8 +17,7 @@
 }
 
 .studio-advantage-headline {
-  font-weight: 700;
-  line-height: 1.14;
+  @include font(14px, 700, 16px);
   text-transform: uppercase;
   margin-bottom: 10px;
 }
